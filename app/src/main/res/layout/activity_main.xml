@@ -4,99 +4,93 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4B278A6A"
+    android:background="#FFF"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="194dp"
+        android:layout_height="174dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/logo" />
+        android:src="@drawable/logo"
+        android:layout_marginTop="30dp" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
-        android:layout_marginBottom="20dp"
-        android:gravity="center_horizontal"
-        android:text="Cabeça de rola"
-        android:textColor="#F4511E"
-        android:textSize="30sp"
-        android:textStyle="bold|italic" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:text="Usuário:"
-        android:textColor="#000"
-        android:textSize="20sp"
-        android:textStyle="bold" />
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp"
+        android:textAlignment="center"
+        android:text="Novo usuário? Crie uma conta!"
+        android:textColor="#255690"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
         android:layout_marginBottom="20dp"
-        android:background="#FDD835"
+        android:background="#C9C3EB"
         android:drawableRight="@drawable/ic_usuario"
-        android:hint="Insira o nome do usuário"
+        android:hint="Usuário"
         android:inputType="textPersonName"
         android:padding="10dp"
         android:textSize="20sp" />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:text="Senha:"
-        android:textColor="#000"
-        android:textSize="20sp"
-        android:textStyle="bold" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
         android:layout_marginBottom="20dp"
-        android:background="#FDD835"
+        android:background="#C9C3EB"
         android:drawableRight="@drawable/ic_senha"
-        android:hint="Insira a senha do usuário"
+        android:hint="Senha"
         android:inputType="textPassword"
         android:padding="10dp"
         android:textSize="20sp" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        android:background="#13A5A0"
-        android:text="Entrar"
-        android:textColor="#FFF" />
-
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_marginRight="10dp"
-        android:background="#13A5A0"
-        android:text="Sair"
-        android:textColor="#FFF" />
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:layout_marginRight="15sp"
+        android:layout_marginRight="30sp"
         android:gravity="end"
-        android:text="Esqueceu a senha?"
+        android:text="Recuperar senha"
         android:textColor="#000" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        android:background="#255690"
+        android:text="Entrar"
+        android:textColor="#FFF" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="━━━━━━━━━ ou ━━━━━━━━━━"
+        android:textAlignment="center"
+        android:paddingBottom="5dp"
+        android:paddingTop="10dp"
+        android:textColor="#8F96F0"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="80dp"
+        android:background="#ff4500"
+        android:text="Continue no APP"
+        android:textColor="#FFF" />
+
+
 </LinearLayout>
